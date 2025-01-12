@@ -120,7 +120,7 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://www.youtube.com/@SUPER
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'mdiskshortner.link/api?api=')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'mdiskshortner.link')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 
 
