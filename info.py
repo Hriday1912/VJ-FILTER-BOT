@@ -125,7 +125,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://mdiskshortner.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 TUTORIAL = environ.get('TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
