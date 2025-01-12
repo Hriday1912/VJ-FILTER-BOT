@@ -12,7 +12,7 @@ id_pattern = re.compile(r'^.\d+$')
 # Bot information
 SESSION = environ.get('SESSION', 'Super Viewer')
 API_ID = int(environ.get('API_ID', '29544183'))
-API_HASH = environ.get('API_HASH', df920dc2aaa645a3aa6674ba223768b9'')
+API_HASH = environ.get('API_HASH', 'df920dc2aaa645a3aa6674ba223768b9')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', mongodb+srv://HRIDAY19:<Hriday123456@@>@superviewer.py3jl.mongodb.net/?retryWrites=true&w=majority&appName=SUPERVIEWER"")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://HRIDAY19:<Hriday123456@@>@superviewer.py3jl.mongodb.net/?retryWrites=true&w=majority&appName=SUPERVIEWER")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
@@ -88,7 +88,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', https://t.me/searchMoviebysuperviewer'')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/searchMoviebysuperviewer')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Superviewerstar')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'searchMoviebysuperviewerbot') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Superviewerstar')
@@ -113,9 +113,9 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL',https://mdiskshortne '')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', b95b7fcd55336d3a64122ea51016b20ed3297a05'')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', https://www.youtube.com/@SUPERVIEWERSTAR '')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://mdiskshortne')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
@@ -126,10 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', https://mdiskshortner.link'')
-SHORTLINK_API = environ.get('SHORTLINK_API', b95b7fcd55336d3a64122ea51016b20ed3297a05
- '')
-TUTORIAL = environ.get('TUTORIAL', https://www.youtube.com/@SUPERVIEWERSTAR '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://mdiskshortner.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
+TUTORIAL = environ.get('TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
