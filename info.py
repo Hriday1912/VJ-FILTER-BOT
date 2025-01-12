@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://mdiskshortne')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR')
