@@ -113,20 +113,20 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://mdiskshortner.link/api?api=b95b7fcd55336d3a64122ea51016b20ed3297a05')
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'mdiskshortner.link')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'https://mdiskshortner.link/api?api=b95b7fcd55336d3a64122ea51016b20ed3297a05')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'mdiskshortner.link/api?api=')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://mdiskshortner.link/api?api=b95b7fcd55336d3a64122ea51016b20ed3297a05')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdiskshortner.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b95b7fcd55336d3a64122ea51016b20ed3297a05')
 TUTORIAL = environ.get('TUTORIAL', 'https://www.youtube.com/@SUPERVIEWERSTAR') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = True
-URL = environ.get("URL", "https://cute-monah-superviewer-c1573e77.koyeb.app")
+URL = environ.get("URL", "serious-andra-superviewer-8f16742f.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
@@ -193,6 +193,4 @@ else:
     SEC_FILE_DB_URI = S_DB_URI    # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
