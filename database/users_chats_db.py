@@ -10,8 +10,7 @@ from info import DATABASE_NAME, USER_DB_URI, OTHER_DB_URI, CUSTOM_FILE_CAPTION, 
 import time
 import datetime
 
-my_client = MongoClient(mongodb+srv://HRIDAY19:Hriday123456@@@superviewer.mongodb.net/database
-)
+my_client = MongoClient(mongodb+srv://HRIDAY19:<Hriday123456@@>@superviewer.py3jl.mongodb.net/?retryWrites=true&w=majority&appName=SUPERVIEWER)
 mydb = my_client["referal_user"]
 
 async def referal_add_user(user_id, ref_user_id):
